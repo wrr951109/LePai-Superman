@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************************register***********************************************/
+
+#content{ background:url(../register/images/lepaibg.jpg) no-repeat center; width:691px; height:728px; }
+/**/
+#content .zhuce{ width:1211px; height:79px; background:#e5e5e5;}
+#content .zhuce img{ padding:25px 0 0 17px;}
+p{ font-size:24px; font-family:" weiruanyah"; color:#7b7b7b;}
+/**/
+#content .shouji{ margin-top:55px; overflow:hidden; margin-left:72px;}
+#content .shouji p{ float:left;padding-right:36px;}
+#content .shouji .text1{ float:left; background:url(../register/images/textshouji.jpg) no-repeat; width:474px; height:62px; border:0 ;}
+/**/
+#content .zhanghu{overflow:hidden; margin-top:33px;margin-left:72px;}
+#content .zhanghu p{float:left;padding-right:36px;}
+#content .zhanghu .text2{float:left;background:url(../register/images/textshouji.jpg) no-repeat; width:474px; height:62px; border:0 ;}
+
+/**/
+#content .yan{overflow:hidden; margin-top:33px;margin-left:72px; }
+#content .yan  p{float:left; padding-right:58px;}
+#content .yan .button{float:left;background: url(../register/images/textyanzheng.jpg) no-repeat; width:271px; height:62px; border:0 ; padding-right:8px;}
+#content .yan  img{float:left;}
+#content .yan span{ float:left; font-family:"宋体"; font-size:14px; color:#273f7d ; margin:20px 0 0 25px;}
+
+
+
+/**/
+#content  .xieyi{overflow:hidden; margin-top:42px;margin-left:203px; }
+#content  .xieyi input{background: url(../register/images/fang.jpg) ;border:0;float:left; padding-right:9px;}
+/*************************************************************/
+
+#content  .xieyi  .wo{float:left; font-family:"宋体"; font-size:14px; color:#333333;  padding-top:3px;}
+#content  .xieyi  .wo span{ color:#273f7d;}
+
+/**/
+#content  .ce{margin-top:28px;margin-left:290px; width:132px; height:62px; background:#273f7d; font-family:" 微软雅黑"; font-size:24px; line-height:62px; padding-left:84px;}
+#content  .ce a{color:#fff500; }
+
+
+/**/
+
+.left{ background:url(../register/images/lepaibg.jpg) no-repeat 530px 0  ;  margin:0; }
+/****************************************register***********************************************/

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+/***************************************order***********************************************/
+
+
+#content{ position:relative;}
+#content .xiaofei{height:809px;}
+#content .xiaofei h2{ font-family:"微软雅黑"; font-size:16px; color:#333; width:890px; height:60px; line-height:60px ; padding-left:21px; border-bottom:1px solid #cccccc; }
+
+/*加文本框部分 */
+#content .xiaofei .part1{ height:71px;}
+#content .xiaofei .part1 .span1{ line-height:71px;font-family:"微软雅黑"; font-size:14px; color:#333; padding-left:60px;}
+#content .xiaofei .part1 .text1{ margin-left:16px; background:url(../images/wodedingdan.jpg) no-repeat ; width:112px ; height:35px; border:0;  }
+#content .xiaofei .part1 .span2{line-height:71px;font-family:"微软雅黑"; font-size:14px; color:#333; padding-left:13px;}
+#content .xiaofei .part1 .text2{ margin-left:13px; background:url(../images/wodedingdan.jpg) no-repeat ; width:112px ; height:35px; border:0;  }
+
+#content .xiaofei .part1 a{ color:#fff;   }
+#content .xiaofei .part1 .bu1{font-family:"微软雅黑"; font-size:14px;  width:72px ; height:35px; background:url(../images/bgdingdan.jpg) no-repeat; padding-bottom:14px; padding-left:16px ; padding-right: 16px; padding-top:8px ;  }
+
+/*********************************************************/
+/*用table显示 分别用th td 控制*/
+
+
+#content .xiaofei table{ width:911px; height:166px; margin-top:16px;}
+#content .xiaofei table tr{}
+.th1{ border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee; border-left:1px solid #eeeeee; padding-left:0px;  }
+.th2{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;padding-left:15px;}
+.th3{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;}
+.th4{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;}
+.th5{ border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee; padding-left:10px; }
+
+
+#content .xiaofei table  th{ width:911px; height:49px; font-family:"微软雅黑"; font-size:14px; color:#333; line-height:44px; padding-right:45px;} 
+#content .xiaofei table  td{ width:911px; height:80px;font-family:"宋体"; font-size:14px; color:#ff4e00; padding-left:49px; }
+.td3{ padding-left:10px;}
+
+#content .xiaofei table  .tdd{ width:911px; height:80px;font-family:"宋体"; font-size:14px; color:#ff4e00; padding-left:49px; }
+
+
+#content .xiaofei p{ font-family:"宋体"; font-size:14px; color:#333333; padding:9px 0 0 18px;}
+/*******************************************************/
+
+
+
+/*右侧*/
+#content .zhongxin{ position:absolute; top:10px; right:20px; width:283px; height:809px; background:#fafafa;}
+#content .zhongxin h2{ font-family:"微软雅黑"; font-size:16px; color:#24779f; padding:22px 0 0 19px;}
+#content .zhongxin ul{}
+#content .zhongxin ul li{font-family:"微软雅黑"; font-size:14px;  line-height:50px; height:50px; width:227px; border-bottom: 1px solid #e5e5e5;margin-left:25px;}
+#content .zhongxin ul li a{color:#aaa; padding-left:12px;}
+#content .zhongxin ul li a:hover{color:#333;}
+
+/* 头部欢迎绳子光临*/
+.huanying{ background: url(../ordering/huanyingshengzi.png)  no-repeat 1084px 30px; padding:40px 0 0 1105px; width:124px; height:38px;}
+
+
+/****************************************order***********************************************/
+
+

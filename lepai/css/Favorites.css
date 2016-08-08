@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/****************************************favorite***********************************************/
+
+#content{ position:relative;}
+#content .xiaofei{height:809px;}
+#content .xiaofei h2{ font-family:"微软雅黑"; font-size:16px; color:#333; width:890px; height:60px; line-height:60px ; padding-left:21px; border-bottom:1px solid #cccccc; }
+
+/* 用table实现 */
+#content .xiaofei table{ width:911px; height:183px; margin-top:16px;}
+#content .xiaofei table tr{}
+.th1{ border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee; border-left:1px solid #eeeeee; padding-left:17px;  }
+.th2{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;padding-left:23px; }
+.th3{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;}
+.th4{ border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;}
+.th5{ border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee;padding-left:10px; }
+.td5{text-decoration:underline; }
+
+#content .xiaofei table  th{ width:911px; height:44px; font-family:"微软雅黑"; font-size:14px; color:#333; line-height:44px; padding-right:50px;} 
+#content .xiaofei table  td{ width:911px; height:137px;font-family:"宋体"; font-size:14px; color:#ff4e00; padding-left:49px; }
+.td3{ padding-left:10px;}
+
+
+
+
+/*右侧*/
+#content .zhongxin{ position:absolute; top:10px; right:20px; width:283px; height:809px; background:#fafafa;}
+#content .zhongxin h2{ font-family:"微软雅黑"; font-size:16px; color:#24779f; padding:22px 0 0 19px;}
+#content .zhongxin ul{}
+#content .zhongxin ul li{font-family:"微软雅黑"; font-size:14px;  line-height:50px; height:50px; width:227px; border-bottom: 1px solid #e5e5e5;margin-left:25px;}
+#content .zhongxin ul li a{color:#aaa; padding-left:12px;}
+#content .zhongxin ul li a:hover{color:#333;}
+
+/* 头部欢迎绳子光临*/
+.huanying{ background: url(../ordering/huanyingshengzi.png)  no-repeat 1084px 30px; padding:40px 0 0 1105px; width:124px; height:38px;}
+
+
+/****************************************favorite***********************************************/

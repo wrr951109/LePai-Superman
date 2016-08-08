@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+}
+/*头部*/
+
+/* 头部第一部分 logo 登录*/
+#wrap {background: url(../images/bg_menu.jpg) repeat-x  top;
+}
+#wrap #top {
+	height: 215px;
+	width: auto; background:url(../images/bg1808.jpg) no-repeat center top;
+	
+}
+#wrap #top .part1 {
+	width: 1260px;
+	margin: 0 auto;
+	height: 100px;
+	background: url(../images/topbg.jpg) ;
+}
+/*logo部分*/
+#wrap #top .part1 h1 {
+	float: left;
+	padding-top: 20px;
+}
+/*登录和注册部分给了背景及连接*/
+#wrap #top .part1 .login {
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+}
+#wrap #top .part1 .login .denglu{ background: url(../register/shoudenglubg.png) no-repeat; width:63px; height:38px;  padding:12px 20px; }
+#wrap #top .part1 .login .zhuce{ background:url(../images/shouzhucebg.jpg) no-repeat;padding:12px 20px 12px 20px;}
+#wrap #top .part1 .login  a{ font-family:" 宋体"; font-size:12px; color:#010101;}
+#wrap #top .part1 .login  a:hover{ color: #27437f;}
+
+
+
+
+
+
+/* 头部第二部分 menu*/
+#wrap #top .part2 {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+#wrap #top .part2 ul li {
+	float: left;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+#wrap #top .part2 ul li a {
+	color: #ffffff;
+	line-height: 100px;
+	height: 100px;
+	width: 70px;
+	padding-left: 20px;
+	padding-right: 34px;
+	display: block;
+}
+#wrap #top .part2 ul li a:hover {
+	background: url(../images/menubg00.jpg) no-repeat;
+	height: 100px;
+	width: 70px;
+	padding-left: 20px;
+	padding-right: 34px;
+	color: #273f7d;
+	display: block;
+}
+/* 第一个li较长 再次定义划过时的样式*/
+#wrap #top .part2 ul .li1 {
+}
+#wrap #top .part2 ul .li1 a {
+	color: #ffffff;
+	line-height: 100px;
+	height: 100px;
+	width: 100px;
+	padding-left: 20px;
+	padding-right: 34px;
+	display: block;
+}
+#wrap #top .part2 ul .li1 a:hover {
+	background: url(../images/pitu.jpg) no-repeat;
+	height: 100px;
+	width: 100px;
+	padding-left: 20px;
+	padding-right: 34px;
+	color: #273f7d;
+	display: block;
+}
+/*input的样式*/
+#wrap #top .part2 .text1 {
+	background: url(../images/bg_input.jpg) no-repeat;
+	width: 251px;
+	height: 40px;
+	line-height:40px;
+	border: 0;
+	margin: 31px 0 0 45px;
+	float: left;
+	font-family:"宋体";
+	font-size:14px;
+	color:#cccccc;
+	
+	
+}
+#wrap #top .part2 .button1 {
+	background: url(../images/btn_search.jpg) no-repeat;
+	width: 39px;
+	height: 40px;
+	border: 0;
+	float: left;
+	margin-top: 31px;
+	margin-left:-2px;
+	text-indent:-999em;
+	
+}
+#wrap #top .part2 .button2 {
+	background: url(../images/btn_gwc.jpg) no-repeat;
+	width: 126px;
+	height: 40px;
+	float: left;
+	margin-top: 31px;
+	margin-left: 10px;
+	border: 0;
+}
+
+
+
+
+
+
+/* 底部 实现背景平铺，文字居中*/
+#wrap #bot {
+	height: 148px;
+	background: #cccccc;
+	width: auto;
+}
+
+#wrap #bot  ul {width: 790px;
+	margin: 0 auto;
+	height: 26px;
+	padding-top: 40px;
+	padding-left: 470px;
+	overflow:hidden;
+}
+#wrap #bot  ul li {
+	float: left;
+	font-size: 12px;
+	font-family: "宋体";
+	width: 65px;
+	border-right: 1px solid #707070;
+}
+.boderrightnone {
+	border-right: none !important
+}
+#wrap #bot  ul li a {
+	color: #707070;
+	padding-left: 8px;
+}
+#wrap #bot  ul li a:hover {
+	color: #fff;
+}
+
+#wrap #bot p {width: 1260px;
+	margin: 0 auto;
+	text-align:center;
+	color: #707070;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 35px;
+	
+}
+
+
+
+
+
+
+
+/* 中间部分框架  使内容自动撑开*/
+#shang img{ padding-left:55px;}
+#wrap #content {
+	width: 1237px;
+	margin: 0 auto;
+	background: url(../images/bg_content.jpg) repeat-y;
+	padding-left:23px;
+	padding-top: 5px;
+	padding-bottom: 46px;
+	
+}
+#yinying {
+	margin: 0 auto;
+	width: 1260px;
+	
+	
+}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/****************************************login***********************************************/
+
+#bg{ background:#666;}
+
+#content{   }
+#content .center{ width:749px; height:467px; margin:0 auto; padding-right: 23px;}
+#content .zhuce{ width:772px; height:79px; background:#e5e5e5;}
+#content .zhuce img{ padding:23px 0 0 17px;}
+p{ font-size:24px; font-family:" 微软雅黑"; color:#7b7b7b;}
+#content .shouji{ margin-top:55px; overflow:hidden; margin-left:72px;}
+#content .shouji p{ float:left;padding-right:36px; padding-top:5px;}
+#content .shouji .text1{ float:left; background:url(../register/images/textshouji.jpg) no-repeat; width:474px; height:62px; border:0 ;}
+#content .zhanghu{overflow:hidden; margin-top:33px;margin-left:72px;}
+#content .zhanghu p{float:left;padding-right:36px; padding-top:5px;}
+#content .zhanghu .text2{float:left;background:url(../register/images/textshouji.jpg) no-repeat; width:474px; height:62px; border:0 ;}
+#content  .denglu  { position:relative; }
+#content  .denglu   .dd{ position:absolute; top:40px; left:290px; width:133px; height:63px; background:#273f7d; padding-left:85px;  }
+#content  .denglu   .dd a{font-size:24px; font-family:" 微软雅黑"; color:#fff500; line-height:60px; }
+#content  .denglu   .dd a:hover{}
+#content  .denglu   .ff { position:absolute; top:88px; left:624px;}
+#content  .denglu   .ff a{font-size:14px; font-family:" 宋体"; color:#273f7d; text-decoration:underline;}
+
+#content  .denglu   .ff a:hover{}
+
+
+
+
+
+
+/****************************************login***********************************************/

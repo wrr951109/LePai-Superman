@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+#content{ position:relative;}
+
+
+/****************************************address***********************************************/
+
+
+/* 左侧    送餐*/
+#content .songcan{ height:809px;}
+#content .songcan h2{ font-family:"微软雅黑"; font-size:16px; color:#333333; padding:14px  0 0 13px; width:896px ; height:60px; line-height:60px; padding-left:15px; border-bottom:1px solid #cccccc;}
+#content .songcan #shouhuo{ background:#f7f7f7; border:1px solid #cccccc;width:911px; height:585px; margin-top:16px;}
+
+/*第一部分 亮线加背景 文字部分用ul*/
+#content .songcan .part1{ overflow:hidden; width:878px; height:201px; background:url(../images/gaisongxian.jpg)  repeat-x  
+ bottom;  margin:0 auto; }
+#content .songcan .part1 h3{ padding:14px 0 0  14px;font-family:"微软雅黑"; font-size:14px; color:#333333;}
+#content .songcan .part1 img{ float:left; padding:42px 0 0 44px;}
+#content .songcan .part1 ul{ float:left; padding-left:54px; padding-top:40px;}
+#content .songcan .part1 ul li{font-family:"宋体"; font-size:14px; color:#333333;}
+
+/*第二部分亮线加背景 文字部分用ul 圆点加背景  button部分用ul 白色加背景*/
+#content .songcan .part2{width:878px; height:186px; margin:0 auto;background:url(../images/gaisongxian.jpg)  repeat-x  
+ bottom;   }
+#content .songcan .part2 .ul1 { overflow:hidden; }
+#content .songcan .part2 .ul1  img{ float:left;padding:42px 0 0 42px;}
+#content .songcan .part2 .ul1  ul{ float:left;padding:36px 0 0 7px; }
+#content .songcan .part2 .ul1  ul li{font-family:"宋体"; font-size:12px; color:#333333; line-height:24px;} 
+
+
+#content .songcan .part2 .ul2 {}
+#content .songcan .part2 .ul2  ul{ padding:12px 0 0 42px;}
+#content .songcan .part2 .ul2  ul li{ float:left;  width:69px; height:34px; background:url(../images/songcanbg.jpg)  no-repeat; padding-right:9px; line-height:34px; text-align:center; display:block; } 
+#content .songcan .part2 .ul2  ul li a{font-family:"微软雅黑"; font-size:12px; color:#333;   }
+#content .songcan .part2 .ul2 .li1 {}
+
+
+
+
+#content .songcan .part2  .ul2 .li1{ position:relative}
+#content .songcan .part2  .ul2 .li1 a{ position:absolute; right:9px;}
+
+/*第三部分  文字部分用ul 圆点加背景  button部分用ul 白色加背景*/
+
+#content .songcan .part3{width:878px;  margin:0 auto; }
+#content .songcan .part3 .ul1 {  overflow:hidden; }
+#content .songcan .part3 .ul1  img{ float:left;padding:42px 0 0 42px;}
+#content .songcan .part3 .ul1  ul{ float:left;padding:36px 0 0 7px; }
+#content .songcan .part3 .ul1  ul li{font-family:"宋体"; font-size:12px; color:#333333; line-height:24px;} 
+
+#content .songcan .part3 .ul2 { overflow:hidden;}
+#content .songcan .part3 .ul2  ul{ padding:12px 0 0 42px;}
+#content .songcan .part3 .ul2  ul li{ float:left;  width:69px; height:34px; background:url(../images/songcanbg.jpg)  no-repeat; padding-right:9px; line-height:34px; text-align:center; display:block; } 
+#content .songcan .part3 .ul2  ul li a{font-family:"微软雅黑"; font-size:12px; color:#333;}
+.li1 a{ padding-left:9px;}
+
+
+/*右侧*/
+
+#content .zhongxin{ position:absolute; top:10px; right:20px; width:283px; height:809px; background:#fafafa;}
+#content .zhongxin h2{ font-family:"微软雅黑"; font-size:16px; color:#24779f; padding:22px 0 0 19px;}
+#content .zhongxin ul{}
+#content .zhongxin ul li{font-family:"微软雅黑"; font-size:14px;  line-height:50px; height:50px; width:227px; border-bottom: 1px solid #e5e5e5;margin-left:25px;}
+#content .zhongxin ul li a{color:#aaa; padding-left:12px;}
+#content .zhongxin ul li a:hover{color:#333;}
+
+
+/* 头部欢迎绳子光临*/
+.huanying{ background: url(../ordering/huanyingshengzi.png)  no-repeat 1084px 30px; padding:40px 0 0 1105px; width:124px; height:38px;}
+
+/****************************************address***********************************************/

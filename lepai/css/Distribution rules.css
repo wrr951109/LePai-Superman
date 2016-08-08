@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/****************************************distribution***********************************************/
+
+#content{ position:relative;}
+#content .left{}
+
+#content .left h2{ padding: 38px 0 0 355px;}
+#content .left h3{ font-family:" 微软雅黑"; font-size:30px; color:#ff4e00;}
+#content .left p{font-family:" 微软雅黑"; font-size:16px; color:#333;  line-height:36px;}
+#content .left p span{ padding-bottom:6px;}
+#content .left p  a{font-family:" 微软雅黑"; font-size:16px; color:#273f7d;}
+
+#content .left .part1{ padding:44px 0 0 94px;}
+
+#content .left .part2{padding:67px 0 0 94px;}
+#content .left .part3{padding:76px 0 0 94px;}
+#content .left .part4{padding:49px 0 0 94px;}
+#content .left .part5{padding:47px 0 0 94px;}
+
+
+
+#content .right{ width:266px; height:899px; background:#fafafa; position:absolute; top: 15px; right: 15px;}
+#content .right h2{font-family:" 微软雅黑"; font-size:16px; color:#24779f; padding:22px 0 0 22px;}
+#content .right ul{font-family:" 微软雅黑"; font-size:14px; padding-top:20px; }
+#content .right ul li{ float:left; width:241px; height:45px;border-top:1px solid #e5e5e5; margin-left:22px;}
+#content .right ul li a{color:#aaa; width:241px; height:45px; line-height:45px; padding-left:12px;}
+#content .right ul li a:hover{ color:#000;}
+#content .right ul .li1{ border-bottom: none !important;}
+
+
+
+/****************************************distribution***********************************************/
+

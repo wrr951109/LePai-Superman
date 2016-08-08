@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+
+/****************************************callus***********************************************/
+
+#content{ position:relative;}
+#content .part1{ padding-left:3px;}
+
+#content .part2{ padding-top:20px;}
+
+#content .part2 .left{height: auto;}
+#content .part2 .left h2{ font-family:" 微软雅黑"; font-size:16px; color: #000; width:906px; height:53px; background:url(../images/bgjianjie.jpg) repeat-x 5px 50px; line-height:53px; padding-left:5px;}
+#content .part2 .left p{ font-family:" 宋体"; font-size:14px; color: #333; width:906px; line-height:30px; }
+
+#content .part2 .left p span{ color:#24779f;}
+#content .part2 .left  .zhaopin { padding-left:5px;}
+#content .part2 .left  .zhaopin  h3{ font-family:"微软雅黑"; font-size:14px; color: #000; width:906px; line-height:20px; }
+#content .part2 .left  .zhaopin ul li{font-family:" 宋体"; font-size:14px; color: #333; width:906px; line-height:30px;  }
+
+
+#content .right{ width:266px; height:899px; background:#fafafa; position:absolute; top: 265px; right: 25px;}
+#content .right h2{font-family:" 微软雅黑"; font-size:16px; color:#24779f; padding:22px 0 0 22px;}
+#content .right ul{font-family:" 微软雅黑"; font-size:14px; padding-top:20px; }
+#content .right ul li{ float:left; width:241px; height:45px;border-top:1px solid #e5e5e5; margin-left:22px;}
+#content .right ul li a{color:#aaa; width:241px; height:45px; line-height:45px; padding-left:12px;}
+#content .right ul li a:hover{ color:#000;}
+#content .right ul .li1{ border-bottom: none !important;}
+
+ 
+ 
+
+/****************************************callus***********************************************/
+
+
